@@ -83,4 +83,11 @@ public class MainActivity extends AppCompatActivity {
         dia.setContentView(R.layout.customdia);
         dia.show();
     }
+
+    public void webs(MenuItem item) {
+        Toast.makeText(this, "website menu got clicked", Toast.LENGTH_SHORT).show();
+        Intent obj = new Intent(MainActivity.this,MainActivity3.class);
+        startActivity(obj);
+
+    }
 }
